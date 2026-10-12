@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4d88e" />
+      <stop offset="4%" stop-color="#885916" />
+      <stop offset="10%" stop-color="#fff3c5" />
+      <stop offset="14%" stop-color="#c28f31" />
+      <stop offset="30%" stop-color="#f0ca68" />
+      <stop offset="35%" stop-color="#805313" />
+      <stop offset="39%" stop-color="#fff1bd" />
+      <stop offset="42%" stop-color="#cba34e" />
+      <stop offset="54%" stop-color="#775014" />
+      <stop offset="60%" stop-color="#f3d682" />
+      <stop offset="72%" stop-color="#ad7622" />
+      <stop offset="84%" stop-color="#e6c477" />
+      <stop offset="90%" stop-color="#82551a" />
+      <stop offset="100%" stop-color="#f3e2b2" />
+    </linearGradient>
+    <linearGradient id="gold-bevel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d4" />
+      <stop offset="0.2" stop-color="#68420f" />
+      <stop offset="0.46" stop-color="#d6a649" />
+      <stop offset="0.7" stop-color="#795016" />
+      <stop offset="1" stop-color="#fff0c4" />
+    </linearGradient>
+    <linearGradient id="platinum" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9e0e3" />
+      <stop offset="4%" stop-color="#647178" />
+      <stop offset="10%" stop-color="#ffffff" />
+      <stop offset="14%" stop-color="#a8b4b9" />
+      <stop offset="30%" stop-color="#e8edef" />
+      <stop offset="35%" stop-color="#59666d" />
+      <stop offset="39%" stop-color="#ffffff" />
+      <stop offset="42%" stop-color="#bcc6cb" />
+      <stop offset="54%" stop-color="#56636a" />
+      <stop offset="60%" stop-color="#f5f8fa" />
+      <stop offset="72%" stop-color="#87959c" />
+      <stop offset="84%" stop-color="#dce2e5" />
+      <stop offset="90%" stop-color="#626f75" />
+      <stop offset="100%" stop-color="#f0f3f5" />
+    </linearGradient>
+    <linearGradient id="platinum-bevel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.2" stop-color="#4d5960" />
+      <stop offset="0.46" stop-color="#d2dade" />
+      <stop offset="0.7" stop-color="#626f75" />
+      <stop offset="1" stop-color="#f4f7f8" />
+    </linearGradient>
+    <linearGradient id="copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e7b493" />
+      <stop offset="4%" stop-color="#79432b" />
+      <stop offset="10%" stop-color="#fff0e4" />
+      <stop offset="14%" stop-color="#b96d48" />
+      <stop offset="30%" stop-color="#dfa080" />
+      <stop offset="35%" stop-color="#6f3b25" />
+      <stop offset="39%" stop-color="#fff0e2" />
+      <stop offset="42%" stop-color="#c77a54" />
+      <stop offset="54%" stop-color="#733f2a" />
+      <stop offset="60%" stop-color="#f2c1a6" />
+      <stop offset="72%" stop-color="#9b5837" />
+      <stop offset="84%" stop-color="#dfa17b" />
+      <stop offset="90%" stop-color="#7b432b" />
+      <stop offset="100%" stop-color="#f0cbb4" />
+    </linearGradient>
+    <linearGradient id="copper-bevel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe7d5" />
+      <stop offset="0.2" stop-color="#63351f" />
+      <stop offset="0.46" stop-color="#d18d67" />
+      <stop offset="0.7" stop-color="#79452c" />
+      <stop offset="1" stop-color="#f7dac7" />
+    </linearGradient>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central" stroke-linejoin="round">
+    <g font-size="80">
+      <text x="50" y="35" fill="url(#platinum)" stroke="url(#platinum-bevel)" stroke-width="1.55" paint-order="stroke fill">¥</text>
+      <text x="49" y="34" fill="none" stroke="#ffffff" stroke-opacity="0.78" stroke-width="0.8">¥</text>
+    </g>
+    <g font-size="68">
+      <text x="29" y="70" fill="url(#gold)" stroke="url(#gold-bevel)" stroke-width="1.55" paint-order="stroke fill">$</text>
+      <text x="28" y="69" fill="none" stroke="#fff4d4" stroke-opacity="0.78" stroke-width="0.8">$</text>
+    </g>
+    <g font-size="56">
+      <text x="71" y="70" fill="url(#copper)" stroke="url(#copper-bevel)" stroke-width="1.55" paint-order="stroke fill">€</text>
+      <text x="70" y="69" fill="none" stroke="#fff0e4" stroke-opacity="0.78" stroke-width="0.8">€</text>
+    </g>
+  </g>
+</svg>

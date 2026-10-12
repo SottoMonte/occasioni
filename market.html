@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102d25" />
+    <meta name="description" content="Market Occasioni.online: anteprima dell’area annunci tra persone, con contatto diretto e revisione prevista." />
+    <title>Market — Occasioni.online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="occasioni.css?v=15" />
+    <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+    <script src="portal-pages.js?v=3" defer></script>
+  </head>
+  <body data-portal-page="market">
+    <a class="skip-link" href="#main">Salta al contenuto</a>
+    <div class="topline"><div class="topline__inner"><span>IDEE PRATICHE, ASPETTATIVE REALI</span><span>Guide · metodi · affiliazioni</span></div></div>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html#inizio" aria-label="Occasioni.online, inizio pagina"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span></button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Navigazione principale">
+          <a href="guide.html">Guide / Blog</a>
+          <a href="opportunita.html">Categorie e programmi</a>
+          <a href="community.html">Forum / Community</a>
+          <a href="market.html" aria-current="page">Market</a>
+        </nav>
+        <a class="header-link" href="#annunci">Vai agli annunci <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+      </div>
+    </header>
+
+    <main id="main" class="portal-main">
+      <nav class="breadcrumbs portal-breadcrumbs" aria-label="Percorso di navigazione"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Market</span></nav>
+      <section class="portal-intro portal-intro--with-image" aria-labelledby="portal-title">
+        <div><p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> 04 / ANNUNCI TRA PERSONE</p><h1 id="portal-title">Market</h1><p class="portal-intro__lead">Una bacheca per mettere in contatto chi vende e chi cerca. Senza account, con recapito scelto da chi pubblica.</p><a class="button button--dark" href="#annunci">Esplora gli annunci <i data-lucide="arrow-down" aria-hidden="true"></i></a></div>
+        <img class="portal-intro__image" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1100&q=84" alt="Acquisto online completato su un computer portatile" fetchpriority="high" />
+      </section>
+
+      <section class="section-wrap market-notice" aria-label="Stato del market">
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> ANTEPRIMA DELL’AREA</p>
+        <p>Il modulo qui sotto genera un’anteprima soltanto in questa scheda: non invia né salva annunci. Nel flusso completo le inserzioni passeranno da una revisione prima della pubblicazione.</p>
+      </section>
+
+      <section class="portal-section section-wrap" id="annunci" aria-labelledby="market-list-title">
+        <div class="portal-section__heading market-list-heading"><div><p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> BACHECA</p><h2 id="market-list-title">Annunci</h2></div><button class="button button--dark" id="open-market-form" type="button">Crea un’anteprima <i data-lucide="plus" aria-hidden="true"></i></button></div>
+        <div class="market-toolbar">
+          <label class="search-field"><span class="search-field__label"><i data-lucide="search" aria-hidden="true"></i>Cerca negli annunci</span><input id="market-search" type="search" placeholder="Titolo, descrizione o zona…" autocomplete="off" /></label>
+          <label class="select-field"><span>Categoria</span><select id="market-category-filter"><option value="tutte">Tutte le categorie</option><option value="elettronica">Elettronica e strumenti</option><option value="casa-ufficio">Casa e ufficio</option><option value="servizi-digitali">Servizi digitali</option><option value="formazione">Formazione e risorse</option><option value="altro">Altro</option></select></label>
+        </div>
+        <p class="results-status" id="market-status" role="status" aria-live="polite">Nessun annuncio pubblicato: il backend non è ancora collegato.</p>
+        <div class="market-listing-grid" id="market-listings">
+          <p class="market-empty" id="market-empty">Non ci sono ancora annunci pubblicati. Puoi compilare il modulo per vedere un’anteprima locale.</p>
+          <article class="market-listing market-listing--preview" id="market-preview" hidden></article>
+        </div>
+      </section>
+
+      <section class="disclosure" aria-labelledby="market-safety-title">
+        <div class="disclosure__inner"><span class="disclosure__mark" aria-hidden="true"><i data-lucide="shield-check"></i></span><div><p class="eyebrow eyebrow--dark">ACQUISTI CONSAPEVOLI</p><h2 id="market-safety-title">Verifica prima<br />di pagare.</h2></div><p>Quando gli annunci saranno attivi, concorda direttamente modalità e condizioni. Non inviare anticipi o documenti personali senza aver verificato la controparte.</p></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__main">
+        <div><a class="brand brand--footer" href="index.html#inizio"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a><p>Informazione pratica per valutare le opportunità digitali con più consapevolezza.</p></div>
+        <nav class="footer-nav" aria-label="Navigazione nel footer"><a href="guide.html">Guide / Blog</a><a href="opportunita.html">Categorie e programmi</a><a href="community.html">Forum / Community</a><a href="market.html">Market</a></nav>
+        <p class="site-footer__note">Questa demo non trasmette né conserva i dati inseriti nel modulo.</p>
+      </div>
+      <div class="site-footer__bottom"><span>© <span id="current-year"></span> occasioni.online</span><span>Questa demo non utilizza link affiliati tracciati.</span><a href="#main">Torna all’inizio ↑</a></div>
+    </footer>
+
+    <dialog class="market-dialog" id="market-form-dialog" aria-labelledby="market-form-title">
+      <div class="market-dialog__panel">
+        <form method="dialog" class="article-dialog__close-form"><button class="dialog-close" type="submit" aria-label="Chiudi il modulo annuncio"><i data-lucide="x" aria-hidden="true"></i></button></form>
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> BOZZA LOCALE</p>
+        <h2 id="market-form-title">Crea un’anteprima</h2>
+        <p class="market-form__note">I campi restano nel browser e vengono usati soltanto per mostrare la scheda di anteprima.</p>
+        <form class="market-form" id="market-form">
+          <label class="market-form__field market-form__field--full"><span>Titolo annuncio</span><input name="title" type="text" maxlength="80" required autocomplete="off" /></label>
+          <label class="market-form__field"><span>Categoria</span><select id="market-category" name="category" required><option value="elettronica">Elettronica e strumenti</option><option value="casa-ufficio">Casa e ufficio</option><option value="servizi-digitali">Servizi digitali</option><option value="formazione">Formazione e risorse</option><option value="altro">Altro</option></select></label>
+          <label class="market-form__field"><span>Condizione</span><select id="market-condition" name="condition" required><option>Usato</option><option>Nuovo</option><option>Servizio</option><option>Risorsa digitale</option></select></label>
+          <label class="market-form__field"><span>Prezzo richiesto (€)</span><input name="price" type="number" min="0" step="0.01" placeholder="Es. 25,00" /></label>
+          <label class="market-form__field"><span>Zona (facoltativa)</span><input name="area" type="text" maxlength="80" placeholder="Città o area" autocomplete="address-level2" /></label>
+          <label class="market-form__field market-form__field--full"><span>Descrizione</span><textarea name="description" rows="5" maxlength="1200" required></textarea></label>
+          <label class="market-form__field"><span>Metodo di contatto</span><select id="market-contact-method" name="contact_method"><option value="phone">Telefono o WhatsApp</option><option value="email">Email</option><option value="link">Link di contatto</option></select></label>
+          <label class="market-form__field"><span>Recapito</span><input id="market-contact-value" name="contact" type="tel" required maxlength="180" autocomplete="off" /></label>
+          <label class="market-form__field market-form__field--full"><span>Foto (facoltativa, massimo 5 MB)</span><input id="market-image" name="image" type="file" accept="image/*" /></label>
+          <div class="market-form__actions market-form__field--full"><button class="button button--acid" type="submit">Genera anteprima <i data-lucide="arrow-up-right" aria-hidden="true"></i></button><p>Per pubblicare davvero l’annuncio serviranno revisione e backend.</p></div>
+        </form>
+      </div>
+    </dialog>
+  </body>
+</html>

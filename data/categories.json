@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "id": "principianti",
+      "name": "Primi passi",
+      "description": "Orientarsi senza esperienza",
+      "type": "guide",
+      "order": 1
+    },
+    {
+      "id": "affiliate",
+      "name": "Affiliate marketing",
+      "description": "Commissioni e programmi",
+      "type": "guide",
+      "order": 2
+    },
+    {
+      "id": "freelance",
+      "name": "Freelance",
+      "description": "Servizi e competenze digitali",
+      "type": "guide",
+      "order": 3
+    },
+    {
+      "id": "microtask",
+      "name": "Sondaggi e microtask",
+      "description": "Piccoli incarichi online",
+      "type": "guide",
+      "order": 4
+    },
+    {
+      "id": "contenuti",
+      "name": "Blog e contenuti",
+      "description": "Creare e monetizzare un pubblico",
+      "type": "guide",
+      "order": 5
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce",
+      "description": "Prodotti fisici e digitali",
+      "type": "guide",
+      "order": 6
+    },
+    {
+      "id": "cashback",
+      "name": "App e cashback",
+      "description": "Risparmio e attività quotidiane",
+      "type": "guide",
+      "order": 7
+    },
+    {
+      "id": "pagamenti",
+      "name": "Pagamenti e strumenti",
+      "description": "Incassi, conti e soglie",
+      "type": "guide",
+      "order": 8
+    },
+    {
+      "id": "sicurezza-online",
+      "name": "Sicurezza online",
+      "description": "Verifiche, privacy e segnali di rischio prima di aderire",
+      "type": "guide",
+      "order": 9
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "description": "Prodotti, retail e marketplace",
+      "type": "sector",
+      "order": 1
+    },
+    {
+      "id": "viaggi",
+      "name": "Viaggi",
+      "description": "Viaggi, soggiorni e trasporti",
+      "type": "sector",
+      "order": 2
+    },
+    {
+      "id": "finanza",
+      "name": "Finanza",
+      "description": "Servizi finanziari e assicurativi",
+      "type": "sector",
+      "order": 3
+    },
+    {
+      "id": "software",
+      "name": "Software",
+      "description": "Software, servizi web e tecnologia",
+      "type": "sector",
+      "order": 4
+    },
+    {
+      "id": "formazione",
+      "name": "Formazione",
+      "description": "Corsi e formazione online",
+      "type": "sector",
+      "order": 5
+    }
+  ]
+}

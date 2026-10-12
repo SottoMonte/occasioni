@@ -1,0 +1,100 @@
+backend:
+  name: turbo-github
+  repo: "SottoMonte/cartaway"
+  turbo_site_id: "ff79a9ad-41d1-4a67-8952-45c2fde97f13"
+  branch: main
+
+locale: it
+publish_mode: simple
+media_folder: uploads
+public_folder: /uploads
+
+collections:
+  - name: editoriale
+    label: Contenuti editoriali
+    files:
+      - name: categorie
+        label: Categorie e settori
+        file: data/categories.json
+        fields:
+          - label: Categorie
+            name: categories
+            widget: list
+            label_singular: categoria
+            summary: "{{name}}"
+            fields:
+              - { label: ID univoco, name: id, widget: string, hint: Minuscolo, senza spazi; gli articoli e i programmi lo usano per collegarsi alla categoria. }
+              - { label: Nome, name: name, widget: string }
+              - { label: Descrizione, name: description, widget: text, required: false }
+              - label: Sezione
+                name: type
+                widget: select
+                options:
+                  - { label: Categoria delle guide, value: guide }
+                  - { label: Settore dei programmi, value: sector }
+              - { label: Ordine di visualizzazione, name: order, widget: number, value_type: int, min: 1, step: 1 }
+
+      - name: articoli
+        label: Articoli e guide
+        file: data/articles.json
+        fields:
+          - label: Articoli
+            name: articles
+            widget: list
+            label_singular: articolo
+            summary: "{{title}}"
+            fields:
+              - { label: ID univoco, name: id, widget: string, hint: Identificativo URL, minuscolo e senza spazi. }
+              - { label: Titolo, name: title, widget: string }
+              - { label: ID categoria, name: category_id, widget: string, hint: Inserisci l'ID di una categoria di tipo guida presente nella raccolta Categorie. }
+              - { label: Sommario, name: excerpt, widget: text }
+              - { label: Tempo di lettura (minuti), name: reading_minutes, widget: number, value_type: int, min: 1, step: 1 }
+              - { label: Immagine di copertina, name: image, widget: image, required: false }
+              - { label: Testo alternativo immagine, name: image_alt, widget: string, required: false }
+              - { label: Testo dell'articolo, name: body, widget: text, rows: 18 }
+              - label: Punti chiave
+                name: key_points
+                widget: list
+                required: false
+                label_singular: punto
+                field: { label: Punto chiave, name: point, widget: string }
+              - label: Tag
+                name: tags
+                widget: list
+                required: false
+                field: { label: Tag, name: tag, widget: string }
+              - { label: Pubblicato, name: published, widget: boolean, default: true }
+
+      - name: programmi
+        label: Programmi di affiliazione
+        file: data/programs.json
+        fields:
+          - label: Programmi
+            name: programs
+            widget: list
+            label_singular: programma
+            summary: "{{name}}"
+            fields:
+              - { label: ID stabile, name: id, widget: string, hint: Identificativo URL univoco, minuscolo e senza spazi. }
+              - { label: Nome programma o network, name: name, widget: string }
+              - label: Tipo
+                name: type
+                widget: select
+                options:
+                  - Programma diretto
+                  - Network di affiliazione
+                  - Network di partnership
+              - { label: Descrizione, name: description, widget: text }
+              - { label: Sito ufficiale, name: url, widget: string, hint: Inserisci un indirizzo HTTPS ufficiale. }
+              - label: ID settori
+                name: categories
+                widget: list
+                required: false
+                hint: Inserisci gli ID delle categorie di tipo settore nella raccolta Categorie.
+                field: { label: ID settore, name: category, widget: string }
+              - label: Tag visualizzati
+                name: tags
+                widget: list
+                required: false
+                field: { label: Tag, name: tag, widget: string }
+              - { label: Pubblicato, name: published, widget: boolean, default: true }

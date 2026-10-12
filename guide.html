@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102d25" />
+    <meta name="description" content="Guide e articoli pratici sui metodi per lavorare e guadagnare online, senza promesse impossibili." />
+    <title>Guide e Blog — Occasioni.online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="occasioni.css?v=15" />
+    <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+    <script src="portal-pages.js?v=3" defer></script>
+  </head>
+  <body data-portal-page="guides">
+    <a class="skip-link" href="#main">Salta al contenuto</a>
+    <div class="topline"><div class="topline__inner"><span>IDEE PRATICHE, ASPETTATIVE REALI</span><span>Guide · metodi · affiliazioni</span></div></div>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html#inizio" aria-label="Occasioni.online, inizio pagina"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span></button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Navigazione principale">
+          <a href="guide.html" aria-current="page">Guide / Blog</a>
+          <a href="opportunita.html">Categorie e programmi</a>
+          <a href="community.html">Forum / Community</a>
+          <a href="market.html">Market</a>
+        </nav>
+        <a class="header-link" href="opportunita.html">Esplora i percorsi <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+    </header>
+
+    <main id="main" class="portal-main">
+      <nav class="breadcrumbs portal-breadcrumbs" aria-label="Percorso di navigazione"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Guide / Blog</span></nav>
+      <section class="portal-intro" aria-labelledby="portal-title">
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> 01 / GUIDE E APPROFONDIMENTI</p>
+        <h1 id="portal-title">Guide e blog</h1>
+        <p class="portal-intro__lead">Metodi, strumenti e controlli da conoscere prima di investire tempo o denaro in un progetto online.</p>
+        <a class="button button--dark" href="#guide-list">Vai agli articoli <i data-lucide="arrow-down" aria-hidden="true"></i></a>
+      </section>
+
+      <section class="portal-section section-wrap" id="guide-list" aria-labelledby="guide-list-title">
+        <div class="section-heading section-heading--guides portal-section__heading">
+          <div><p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> DALLA REDAZIONE</p><h2 id="guide-list-title">Leggi con criterio.</h2></div>
+          <div class="guide-tools">
+            <label class="search-field"><span class="search-field__label"><i data-lucide="search" aria-hidden="true"></i>Cerca nelle guide</span><input id="guide-search" type="search" placeholder="Es. affiliazioni, pagamenti…" autocomplete="off" /></label>
+            <label class="select-field"><span>Categoria</span><select id="guide-category-filter"><option value="tutte">Tutte le categorie</option></select></label>
+          </div>
+        </div>
+        <p class="results-status" id="guide-status" role="status" aria-live="polite" data-portal-status>Caricamento articoli…</p>
+        <div class="article-grid" id="guide-grid"></div>
+        <p class="empty-state" id="guide-empty" hidden>Nessuna guida corrisponde alla ricerca. Prova un altro termine o una categoria diversa.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__main">
+        <div><a class="brand brand--footer" href="index.html#inizio"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a><p>Informazione pratica per valutare le opportunità digitali con più consapevolezza.</p></div>
+        <nav class="footer-nav" aria-label="Navigazione nel footer"><a href="guide.html">Guide / Blog</a><a href="opportunita.html">Categorie e programmi</a><a href="community.html">Forum / Community</a><a href="market.html">Market</a></nav>
+        <p class="site-footer__note">I contenuti hanno finalità informative e non costituiscono consulenza finanziaria, legale o fiscale. I risultati non sono garantiti.</p>
+      </div>
+      <div class="site-footer__bottom"><span>© <span id="current-year"></span> occasioni.online</span><span>Questa demo non utilizza link affiliati tracciati.</span><a href="#main">Torna all’inizio ↑</a></div>
+    </footer>
+
+    <dialog class="article-dialog" id="article-dialog" aria-labelledby="article-dialog-title">
+      <div class="article-dialog__panel">
+        <form method="dialog" class="article-dialog__close-form"><button class="dialog-close" type="submit" aria-label="Chiudi l’anteprima articolo"><i data-lucide="x" aria-hidden="true"></i></button></form>
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span><span id="article-dialog-category"></span></p>
+        <h2 id="article-dialog-title"></h2><p class="article-dialog__meta" id="article-dialog-meta"></p>
+        <div class="article-dialog__body" id="article-dialog-body"></div>
+        <p class="article-dialog__disclaimer">I contenuti hanno finalità informative e non costituiscono consulenza finanziaria, legale o fiscale. Verifica le condizioni aggiornate direttamente con le piattaforme citate.</p>
+        <div class="article-dialog__actions"><a class="button button--acid" id="article-dialog-link" href="articolo.html">Leggi l’articolo completo <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+      </div>
+    </dialog>
+  </body>
+</html>

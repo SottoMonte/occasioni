@@ -1,0 +1,104 @@
+{
+  "programs": [
+    {
+      "id": "amazon-partnernet",
+      "name": "Amazon PartnerNet",
+      "type": "Programma diretto",
+      "description": "Programma per la promozione di prodotti del marketplace.",
+      "tags": ["Casa", "Tecnologia", "Libri"],
+      "categories": ["shopping"],
+      "url": "https://programma-affiliazione.amazon.it/",
+      "published": true
+    },
+    {
+      "id": "awin",
+      "name": "Awin",
+      "type": "Network di affiliazione",
+      "description": "Rete con campagne di inserzionisti in diversi mercati.",
+      "tags": ["Retail", "Moda", "Viaggi"],
+      "categories": ["shopping", "viaggi"],
+      "url": "https://www.awin.com/it",
+      "published": true
+    },
+    {
+      "id": "tradedoubler",
+      "name": "TradeDoubler",
+      "type": "Network di affiliazione",
+      "description": "Piattaforma di partnership e campagne digitali.",
+      "tags": ["Retail", "Viaggi", "Servizi"],
+      "categories": ["shopping", "viaggi", "finanza"],
+      "url": "https://www.tradedoubler.com/",
+      "published": true
+    },
+    {
+      "id": "impact",
+      "name": "Impact.com",
+      "type": "Network di partnership",
+      "description": "Strumenti e programmi per collaborazioni tra brand e publisher.",
+      "tags": ["Retail", "Software", "Servizi"],
+      "categories": ["shopping", "software"],
+      "url": "https://impact.com/",
+      "published": true
+    },
+    {
+      "id": "partnerstack",
+      "name": "PartnerStack",
+      "type": "Network di partnership",
+      "description": "Rete orientata a software, prodotti digitali e partnership B2B.",
+      "tags": ["Software", "SaaS", "Formazione"],
+      "categories": ["software", "formazione"],
+      "url": "https://partnerstack.com/",
+      "published": true
+    },
+    {
+      "id": "cj-affiliate",
+      "name": "CJ Affiliate",
+      "type": "Network di affiliazione",
+      "description": "Network internazionale con programmi di diversi inserzionisti.",
+      "tags": ["Retail", "Viaggi", "Servizi"],
+      "categories": ["shopping", "viaggi"],
+      "url": "https://www.cj.com/",
+      "published": true
+    },
+    {
+      "id": "tradetracker",
+      "name": "TradeTracker",
+      "type": "Network di affiliazione",
+      "description": "Rete internazionale con campagne in più mercati. Catalogo, requisiti e remunerazione vanno verificati nella singola campagna e possono cambiare.",
+      "tags": ["Retail", "Viaggi", "Servizi"],
+      "categories": ["shopping", "viaggi"],
+      "url": "https://tradetracker.com/it/",
+      "published": true
+    },
+    {
+      "id": "webgains",
+      "name": "Webgains",
+      "type": "Network di affiliazione",
+      "description": "Network per publisher e inserzionisti con campagne e strumenti di gestione delle partnership. Marchi e requisiti dipendono dal catalogo e dalle singole offerte.",
+      "tags": ["Retail", "E-commerce", "Partnership"],
+      "categories": ["shopping"],
+      "url": "https://webgains.com/publishers/",
+      "published": true
+    },
+    {
+      "id": "rakuten-advertising",
+      "name": "Rakuten Advertising",
+      "type": "Network di affiliazione",
+      "description": "Network internazionale che collega publisher e brand con strumenti per gestire partnership e campagne. Disponibilità e condizioni vanno verificate per ogni inserzionista.",
+      "tags": ["Retail", "Viaggi", "Servizi finanziari"],
+      "categories": ["shopping", "viaggi", "finanza"],
+      "url": "https://rakutenadvertising.com/publishers/",
+      "published": true
+    },
+    {
+      "id": "admitad",
+      "name": "Admitad",
+      "type": "Network di partnership",
+      "description": "Piattaforma di partnership con campagne affiliate in diversi ambiti e strumenti di monitoraggio. Offerte e criteri di accesso dipendono dal mercato e dal programma.",
+      "tags": ["E-commerce", "Viaggi", "Servizi digitali", "Finanza"],
+      "categories": ["shopping", "viaggi", "finanza", "software"],
+      "url": "https://store.admitad.com/en/webmaster/registration/",
+      "published": true
+    }
+  ]
+}

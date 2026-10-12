@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102d25" />
+    <meta name="description" content="Esplora categorie e programmi di affiliazione per valutare opportunità di guadagno online." />
+    <title>Categorie e programmi — Occasioni.online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="occasioni.css?v=15" />
+    <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+    <script src="portal-pages.js?v=3" defer></script>
+  </head>
+  <body data-portal-page="opportunities">
+    <a class="skip-link" href="#main">Salta al contenuto</a>
+    <div class="topline"><div class="topline__inner"><span>IDEE PRATICHE, ASPETTATIVE REALI</span><span>Guide · metodi · affiliazioni</span></div></div>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html#inizio" aria-label="Occasioni.online, inizio pagina"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Apri il menu" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span></button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Navigazione principale">
+          <a href="guide.html">Guide / Blog</a>
+          <a href="opportunita.html" aria-current="page">Categorie e programmi</a>
+          <a href="community.html">Forum / Community</a>
+          <a href="market.html">Market</a>
+        </nav>
+        <a class="header-link" href="#programmi">Esplora i programmi <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+    </header>
+
+    <main id="main" class="portal-main">
+      <nav class="breadcrumbs portal-breadcrumbs" aria-label="Percorso di navigazione"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Categorie e programmi</span></nav>
+      <section class="portal-intro" aria-labelledby="portal-title">
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> 02 / ESPLORA LE OPPORTUNITÀ</p>
+        <h1 id="portal-title">Categorie e programmi</h1>
+        <p class="portal-intro__lead">Parti da un ambito, confronta le piattaforme e verifica condizioni, costi e requisiti prima di aderire.</p>
+        <a class="button button--dark" href="#programmi">Vai alla directory <i data-lucide="arrow-down" aria-hidden="true"></i></a>
+      </section>
+
+      <section class="portal-section section-wrap" aria-labelledby="guide-categories-title">
+        <div class="portal-section__heading"><p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> LE GUIDE PER TEMA</p><h2 id="guide-categories-title">Scegli una categoria.</h2></div>
+        <div class="category-grid" id="guide-categories"></div>
+      </section>
+
+      <section class="directory" id="programmi" aria-labelledby="programs-title">
+        <div class="directory__inner">
+          <div class="directory__heading">
+            <div><p class="eyebrow eyebrow--light"><span class="eyebrow__rule"></span> PROGRAMMI DI AFFILIAZIONE</p><h2 id="programs-title">Una directory.<br /><em>Molti settori.</em></h2></div>
+            <p>Reti e programmi raccolti in un unico posto. La presenza in elenco non garantisce approvazione o risultati economici.</p>
+          </div>
+          <div class="directory__filters">
+            <label class="search-field search-field--light"><span class="search-field__label"><i data-lucide="search" aria-hidden="true"></i>Cerca un programma</span><input id="program-search" type="search" placeholder="Nome, settore o piattaforma…" autocomplete="off" /></label>
+            <div class="directory__sector-control">
+                <span class="directory__filter-label"><i data-lucide="layers" aria-hidden="true"></i>Confronta per settore</span>
+              <div class="sector-filter" id="sector-filter" role="group" aria-label="Filtra programmi per settore"></div>
+            </div>
+          </div>
+          <p class="results-status results-status--light" id="program-status" role="status" aria-live="polite" data-portal-status>Caricamento programmi…</p>
+          <div class="program-grid" id="program-grid"></div>
+          <p class="empty-state" id="program-empty" hidden>Nessun programma corrisponde ai filtri. Prova un altro settore o termine.</p>
+          <p class="directory__disclaimer">Disponibilità, commissioni, cookie, requisiti e pagamenti possono cambiare: verifica sempre le condizioni aggiornate sul sito ufficiale.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__main">
+        <div><a class="brand brand--footer" href="index.html#inizio"><img class="brand__mark" src="assets/occasioni-compass.svg?v=1" alt="" /><span class="brand__name">occasioni<span>.online</span></span></a><p>Informazione pratica per valutare le opportunità digitali con più consapevolezza.</p></div>
+        <nav class="footer-nav" aria-label="Navigazione nel footer"><a href="guide.html">Guide / Blog</a><a href="opportunita.html">Categorie e programmi</a><a href="community.html">Forum / Community</a><a href="market.html">Market</a></nav>
+        <p class="site-footer__note">I contenuti hanno finalità informative e non costituiscono consulenza finanziaria, legale o fiscale. Verifica sempre le condizioni delle piattaforme.</p>
+      </div>
+      <div class="site-footer__bottom"><span>© <span id="current-year"></span> occasioni.online</span><span>Questa demo non utilizza link affiliati tracciati.</span><a href="#main">Torna all’inizio ↑</a></div>
+    </footer>
+
+    <dialog class="article-dialog" id="program-dialog" aria-labelledby="program-dialog-title" aria-describedby="program-dialog-description">
+      <div class="article-dialog__panel">
+        <form method="dialog" class="article-dialog__close-form"><button class="dialog-close" type="submit" aria-label="Chiudi l’anteprima programma"><i data-lucide="x" aria-hidden="true"></i></button></form>
+        <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span><span id="program-dialog-type"></span></p>
+        <h2 id="program-dialog-title"></h2><p class="article-dialog__meta" id="program-dialog-meta"></p>
+        <p class="program-dialog__description" id="program-dialog-description"></p>
+        <div class="program-dialog__tags" id="program-dialog-tags"></div>
+        <p class="article-dialog__disclaimer">Verifica disponibilità, requisiti e condizioni aggiornate sul sito ufficiale prima di aderire.</p>
+        <div class="article-dialog__actions"><a class="button button--acid" id="program-dialog-link" href="programma.html">Apri la scheda del programma <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+      </div>
+    </dialog>
+  </body>
+</html>

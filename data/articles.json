@@ -1,0 +1,225 @@
+{
+  "articles": [
+    {
+      "id": "primi-passi",
+      "category_id": "principianti",
+      "title": "Guadagnare online: da dove partire, senza inseguire promesse",
+      "excerpt": "Una mappa iniziale per confrontare metodi, tempo richiesto e competenze prima di scegliere.",
+      "reading_minutes": 6,
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Persona al lavoro con appunti e computer portatile",
+      "body": "Non esiste un metodo adatto a tutti. Prima di aprire account o acquistare corsi, chiarisci quanto tempo puoi dedicare, quali competenze hai già e se cerchi un piccolo extra o un progetto da sviluppare nel tempo.\n\nConfronta le attività in base a ciò che richiedono davvero: un servizio freelance può portare ai primi clienti dopo aver costruito un portfolio; un blog o un canale richiede tempo per trovare un pubblico; sondaggi e microtask sono più semplici da iniziare ma non vanno confusi con uno stipendio.",
+      "key_points": [
+        "Scrivi obiettivo, tempo disponibile e budget massimo prima di iniziare.",
+        "Prova un solo percorso per volta e misura ore, costi e risultati reali.",
+        "Diffida di guadagni certi, rendimenti garantiti e pagamenti anticipati per ottenere un lavoro."
+      ],
+      "tags": ["guadagnare online", "principianti"],
+      "published": true
+    },
+    {
+      "id": "affiliate-marketing",
+      "category_id": "affiliate",
+      "title": "Affiliate marketing: come funziona una commissione",
+      "excerpt": "Dal link tracciato al pagamento: i passaggi da capire prima di promuovere un prodotto.",
+      "reading_minutes": 7,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Schermo con grafici e dati di un'attività digitale",
+      "body": "Nel marketing di affiliazione un editore segnala un prodotto o servizio con un link attribuibile. Se una persona compie l'azione prevista dal programma, l'editore può maturare una commissione secondo le condizioni pubblicate dall'inserzionista.\n\nLe regole cambiano da campagna a campagna: l'azione valida può essere un acquisto, una richiesta di contatto o un'altra conversione. Anche attribuzione, annullamenti, soglie e tempi di pagamento sono definiti dal singolo programma.",
+      "key_points": [
+        "Leggi termini, prodotti esclusi, durata di attribuzione e regole per i resi.",
+        "Controlla soglia, valuta e metodo di pagamento prima di promuovere.",
+        "Dichiara in modo chiaro i rapporti commerciali e usa link conformi alle regole del programma."
+      ],
+      "tags": ["affiliate marketing", "commissioni"],
+      "published": true
+    },
+    {
+      "id": "freelance-online",
+      "category_id": "freelance",
+      "title": "Freelance online: trasforma una competenza in un servizio",
+      "excerpt": "Come definire un'offerta piccola e comprensibile, dal portfolio al primo preventivo.",
+      "reading_minutes": 5,
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Collaboratori che lavorano insieme a un tavolo",
+      "body": "Scrittura, traduzione, grafica, sviluppo e assistenza sono esempi di competenze che possono diventare servizi. Per partire, descrivi un risultato preciso per un cliente preciso, invece di presentarti come disponibile a fare tutto.\n\nUn portfolio essenziale può includere progetti personali dichiarati come tali. Specifica cosa consegni, in quanto tempo, quante revisioni sono comprese e quali informazioni ti servono dal cliente.",
+      "key_points": [
+        "Prepara due o tre esempi pertinenti e spiega il tuo contributo.",
+        "Calcola il tempo di lavoro, i costi degli strumenti e le commissioni della piattaforma.",
+        "Verifica gli obblighi fiscali applicabili con fonti ufficiali o un professionista."
+      ],
+      "tags": ["freelance", "servizi online"],
+      "published": true
+    },
+    {
+      "id": "sondaggi-microtask",
+      "category_id": "microtask",
+      "title": "Sondaggi retribuiti: cosa controllare prima di iscriversi",
+      "excerpt": "Compensi, soglie e raccolta dei dati: una lista di controlli per valutare le piattaforme.",
+      "reading_minutes": 4,
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Persona che compila appunti durante una riunione",
+      "body": "Sondaggi e microtask sono attività brevi che alcune piattaforme ricompensano in denaro, buoni o punti. La disponibilità dipende spesso dal profilo e dal paese; il tempo speso non sempre corrisponde a un compenso regolare.\n\nPrima di registrarti, cerca come vengono usati i dati, quali sono le soglie di prelievo e quali metodi di pagamento sono disponibili. Evita servizi che chiedono denaro per sbloccare sondaggi o garantiscono entrate elevate.",
+      "key_points": [
+        "Leggi privacy, condizioni di recesso e modalità di cancellazione dell'account.",
+        "Segna il tempo impiegato e il valore effettivo dei premi riscattabili.",
+        "Non fornire documenti o dati bancari oltre quanto necessario e giustificato."
+      ],
+      "tags": ["sondaggi", "microtask"],
+      "published": true
+    },
+    {
+      "id": "blog-contenuti",
+      "category_id": "contenuti",
+      "title": "Monetizzare un blog: prima il pubblico, poi i ricavi",
+      "excerpt": "Pubblicità, collaborazioni e affiliazioni funzionano solo se il contenuto è utile e credibile.",
+      "reading_minutes": 6,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Persona che usa un portatile per lavorare online",
+      "body": "Un blog può sostenersi con pubblicità, contenuti sponsorizzati, prodotti propri o affiliazioni. Non sono ricavi automatici: dipendono da pubblico, argomento, qualità editoriale e regole dei partner.\n\nScegli un tema che puoi trattare con competenza e organizza i contenuti intorno alle domande reali dei lettori. Un piano editoriale sostenibile vale più di una pubblicazione intensa che non riesci a mantenere.",
+      "key_points": [
+        "Definisci lettore, argomenti e fonti prima di scegliere la monetizzazione.",
+        "Rendi visibili sponsorizzazioni e link affiliati, senza alterare il giudizio editoriale.",
+        "Considera dominio, hosting, strumenti, manutenzione e tempo come costi del progetto."
+      ],
+      "tags": ["blog", "contenuti", "monetizzazione"],
+      "published": true
+    },
+    {
+      "id": "ecommerce",
+      "category_id": "ecommerce",
+      "title": "Vendere online: calcola i costi prima di scegliere un prodotto",
+      "excerpt": "Margini, logistica e resi: le voci che spesso spariscono dai calcoli iniziali.",
+      "reading_minutes": 7,
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Acquisto online completato su un computer portatile",
+      "body": "Il prezzo di vendita non è il guadagno. Per stimare il margine, considera costo del prodotto, imballaggio, spedizione, commissioni, pubblicità, resi, assistenza e imposte pertinenti.\n\nPrima di acquistare scorte o investire in campagne, verifica la domanda e le regole che riguardano il prodotto. Dropshipping e print on demand riducono alcune attività di magazzino, ma non eliminano responsabilità, costi o gestione dei clienti.",
+      "key_points": [
+        "Costruisci un conto economico includendo anche resi e ordini non consegnati.",
+        "Controlla sicurezza, etichettatura, garanzia e diritto di recesso applicabili.",
+        "Testa la domanda su piccola scala senza basarti solo su stime del fornitore."
+      ],
+      "tags": ["e-commerce", "vendita online"],
+      "published": true
+    },
+    {
+      "id": "app-cashback",
+      "category_id": "cashback",
+      "title": "Cashback e app: risparmio non significa guadagno garantito",
+      "excerpt": "Come leggere condizioni, acquisti validi, esclusioni e tempi di accredito.",
+      "reading_minutes": 4,
+      "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Pagamento contactless effettuato in un negozio",
+      "body": "Il cashback restituisce una parte di una spesa idonea secondo le condizioni del servizio. Non conviene comprare qualcosa che non serve solo per ottenere un rimborso: il risparmio esiste solo se la spesa era già prevista e il rimborso viene riconosciuto.\n\nLe condizioni possono escludere codici sconto, prodotti o modalità di pagamento; inoltre l'accredito può richiedere tempo ed essere soggetto a una soglia minima.",
+      "key_points": [
+        "Confronta il prezzo finale con quello disponibile altrove.",
+        "Controlla esclusioni, scadenze e soglia minima di prelievo.",
+        "Valuta permessi dell'app, trattamento dei dati e modalità di pagamento."
+      ],
+      "tags": ["cashback", "app"],
+      "published": true
+    },
+    {
+      "id": "ricevere-pagamenti",
+      "category_id": "pagamenti",
+      "title": "Ricevere pagamenti online: commissioni, tempi e verifiche",
+      "excerpt": "Un confronto pratico tra metodi d'incasso, costi, valute e procedure di verifica.",
+      "reading_minutes": 5,
+      "image": "https://images.unsplash.com/photo-1556742111-a301076d9d18?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Pagamento con carta presso un terminale elettronico",
+      "body": "Prima di scegliere un metodo d'incasso, confronta commissioni fisse e variabili, valuta, tempi di trasferimento, contestazioni e disponibilità nel tuo paese. Un servizio comodo per pagare non è necessariamente quello più adatto a ricevere compensi.\n\nPer alcuni account possono essere richiesti controlli d'identità o documenti sull'attività. Usa soltanto le pagine ufficiali e non inviare password, codici temporanei o dati completi della carta tramite messaggi.",
+      "key_points": [
+        "Leggi il tariffario aggiornato e le condizioni per i blocchi o le contestazioni.",
+        "Verifica compatibilità con paese, valuta e tipo di attività.",
+        "Per gli obblighi fiscali, fai riferimento alle fonti ufficiali e a un professionista."
+      ],
+      "tags": ["pagamenti", "strumenti"],
+      "published": true
+    },
+    {
+      "id": "scegliere-rete-affiliazione",
+      "category_id": "affiliate",
+      "title": "Scegliere una rete di affiliazione: oltre la commissione",
+      "excerpt": "Pubblico, attribuzione, requisiti e pagamenti contano quanto la percentuale indicata nella scheda.",
+      "reading_minutes": 6,
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Grafici e dati di una campagna digitale su uno schermo",
+      "body": "Una rete mette in contatto chi pubblica contenuti con aziende che propongono campagne. Prima di iscriverti, chiediti se i prodotti sono davvero pertinenti per il tuo pubblico: una proposta coerente è più utile di un catalogo ampio ma fuori tema.\n\nControlla come viene attribuita una conversione, quali canali promozionali sono ammessi e se servono requisiti minimi per candidarsi. Leggi anche le regole su resi, annullamenti, soglia di pagamento, valuta e tempi di convalida. Questi elementi possono cambiare da campagna a campagna.\n\nAll'inizio conviene selezionare poche offerte, annotare clic e risultati e confrontare il tempo dedicato con i costi sostenuti. Non usare la percentuale più alta come unica misura: una commissione matura solo se l'azione richiesta viene riconosciuta secondo i termini del programma.",
+      "key_points": [
+        "Verifica la corrispondenza tra offerta, contenuto e pubblico.",
+        "Leggi attribuzione, restrizioni promozionali e condizioni di pagamento.",
+        "Prova poche campagne e registra costi, tempo e conversioni convalidate."
+      ],
+      "tags": ["affiliate marketing", "network", "commissioni"],
+      "published": true
+    },
+    {
+      "id": "modelli-commissione-affiliazione",
+      "category_id": "affiliate",
+      "title": "Click, contatto o vendita: come leggere una commissione",
+      "excerpt": "PPC, PPI, PPL e PPS descrivono azioni diverse: capire il modello evita confronti fuorvianti.",
+      "reading_minutes": 5,
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Team al lavoro su una campagna digitale",
+      "body": "Le sigle indicano quale evento può generare un compenso. Nel pay per click conta un clic valido; nel pay per impression viene considerata l'esposizione prevista dalla campagna; nel pay per lead serve un contatto o una registrazione idonea; nel pay per sale occorre un acquisto tracciato e accettato.\n\nIl nome del modello non basta a stimare il risultato. Ogni inserzionista stabilisce criteri di validità, esclusioni, eventuali annullamenti e finestre di attribuzione. Un clic può essere scartato, un contatto può non superare la verifica e un ordine può essere restituito.\n\nScegli il modello in base al contenuto e al passaggio che il tuo pubblico è pronto a compiere. Leggi le regole prima di promuovere e non presentare una commissione teorica come un guadagno certo.",
+      "key_points": [
+        "Identifica l'azione precisa che la campagna considera valida.",
+        "Controlla esclusioni, annullamenti e criteri di convalida.",
+        "Confronta campagne dello stesso modello e con pubblico simile."
+      ],
+      "tags": ["PPC", "PPI", "PPL", "PPS"],
+      "published": true
+    },
+    {
+      "id": "valutare-sondaggi-microtask",
+      "category_id": "microtask",
+      "title": "Sondaggi e microtask: misura il valore del tempo",
+      "excerpt": "Conta anche il tempo di attesa, le esclusioni e la soglia necessaria per riscuotere un premio.",
+      "reading_minutes": 5,
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Appunti presi durante un'attività di ricerca",
+      "body": "Un questionario o un piccolo incarico può sembrare breve, ma il tempo effettivo comprende anche la registrazione, le domande di idoneità, le istruzioni e l'attesa del pagamento. La disponibilità delle attività dipende dal profilo e può interrompersi senza preavviso.\n\nPer confrontare le piattaforme, annota minuti impiegati, attività completate, esclusioni e valore realmente riscattato. Controlla in anticipo soglia minima, metodi di pagamento, scadenza dei punti e paesi ammessi. Un premio non ancora prelevabile non equivale a denaro ricevuto.\n\nDedica a queste attività un limite di tempo e non condividere informazioni più sensibili di quelle necessarie. Evita servizi che chiedono un pagamento per sbloccare incarichi o promettono entrate fisse indipendenti dal lavoro svolto.",
+      "key_points": [
+        "Registra il tempo totale, non solo la durata del questionario.",
+        "Verifica soglie, scadenze e modalità di riscatto prima di iscriverti.",
+        "Non versare denaro per accedere a incarichi o prelievi."
+      ],
+      "tags": ["sondaggi", "microtask", "pagamenti"],
+      "published": true
+    },
+    {
+      "id": "vendere-online-senza-magazzino",
+      "category_id": "ecommerce",
+      "title": "Vendere online senza magazzino: tre modelli a confronto",
+      "excerpt": "Dropshipping, stampa su richiesta e prodotti digitali riducono alcune attività, ma non eliminano costi e responsabilità.",
+      "reading_minutes": 7,
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Ordine online preparato per una vendita digitale",
+      "body": "Nel dropshipping il fornitore spedisce il prodotto al cliente; nella stampa su richiesta un articolo viene realizzato dopo l'ordine; con un prodotto digitale si distribuisce un file, un modello o un contenuto online. In tutti e tre i casi serve capire chi gestisce consegna, assistenza, rimborsi e problemi con l'ordine.\n\nPrima di scegliere, prepara un conto che includa piattaforma, commissioni, produzione o fornitore, pagamenti, promozione, resi e assistenza. Per i prodotti digitali valuta anche aggiornamenti, compatibilità, diritti sui materiali e richieste di supporto. Il margine non coincide con la differenza tra prezzo di vendita e costo dichiarato dal fornitore.\n\nProva l'idea con una scala sostenibile e raccogli riscontri da potenziali clienti prima di investire in pubblicità o in cataloghi estesi. Verifica le regole applicabili alla tua attività e alla categoria di prodotto con fonti ufficiali o un professionista.",
+      "key_points": [
+        "Chiarisci chi produce, spedisce e risponde al cliente.",
+        "Includi commissioni, promozione, resi e assistenza nel calcolo dei costi.",
+        "Testa domanda e processo prima di aumentare la spesa."
+      ],
+      "tags": ["e-commerce", "dropshipping", "prodotti digitali"],
+      "published": true
+    },
+    {
+      "id": "verificare-piattaforma-online",
+      "category_id": "sicurezza-online",
+      "title": "Cinque controlli prima di affidarsi a una piattaforma online",
+      "excerpt": "Identità, pagamenti, privacy e richieste di denaro aiutano a valutare un'opportunità prima di registrarsi.",
+      "reading_minutes": 5,
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=82",
+      "image_alt": "Persona che verifica documenti e informazioni al computer",
+      "body": "Prima di creare un account, cerca chi gestisce il servizio e come contattarlo. Un sito professionale o molte testimonianze pubblicate sulla stessa pagina non bastano, da soli, a dimostrare che una proposta sia affidabile.\n\nLeggi i termini che regolano il lavoro o il programma: quali azioni vengono pagate, quando un importo può essere rifiutato, quale soglia serve per il prelievo e quali dati vengono raccolti. Cerca riscontri indipendenti e confronta le informazioni con le pagine ufficiali dell'azienda.\n\nFermati se ti chiedono un versamento per ottenere un lavoro, se promettono compensi certi senza spiegare l'attività o se impongono urgenza e reclutamento di altre persone. Non inviare password, codici temporanei o documenti tramite canali non verificati.",
+      "key_points": [
+        "Verifica identità, recapiti e condizioni del servizio.",
+        "Controlla soglie, tempi e metodi di pagamento, oltre alla privacy.",
+        "Diffida di pagamenti anticipati, pressioni e guadagni garantiti."
+      ],
+      "tags": ["sicurezza", "truffe online", "verifica"],
+      "published": true
+    }
+  ]
+}
