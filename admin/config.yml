@@ -1,7 +1,7 @@
 backend:
   name: turbo-github
-  repo: "SottoMonte/cartaway"
-  turbo_site_id: "ff79a9ad-41d1-4a67-8952-45c2fde97f13"
+  repo: "SottoMonte/occasioni"
+  turbo_site_id: "7d26b102-b9bd-4065-a2f9-272668bc6e2b"
   branch: main
 
 locale: it
