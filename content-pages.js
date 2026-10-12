@@ -1,4 +1,5 @@
 const pageType = document.body.dataset.contentPage;
+const siteUrl = "https://occasioni.online";
 window.lucide?.createIcons();
 
 const elements = {
@@ -11,6 +12,15 @@ const elements = {
   excerpt: document.querySelector("#detail-excerpt"),
   image: document.querySelector("#detail-image"),
   metaDescription: document.querySelector("#page-description"),
+  canonical: document.querySelector("#page-canonical"),
+  ogTitle: document.querySelector("#page-og-title"),
+  ogDescription: document.querySelector("#page-og-description"),
+  ogType: document.querySelector("#page-og-type"),
+  ogUrl: document.querySelector("#page-og-url"),
+  twitterCard: document.querySelector("#page-twitter-card"),
+  twitterTitle: document.querySelector("#page-twitter-title"),
+  twitterDescription: document.querySelector("#page-twitter-description"),
+  structuredData: document.querySelector("#page-structured-data"),
   notFound: document.querySelector("#detail-not-found"),
   officialLink: document.querySelector("#official-link"),
   points: document.querySelector("#detail-points"),
@@ -55,10 +65,59 @@ function categoryName(categories, id) {
   return categories.find((category) => category.id === id)?.name || id || "Senza categoria";
 }
 
+function setOptionalMeta(attribute, key, content) {
+  let meta = document.head.querySelector(`meta[${attribute}="${key}"]`);
+  if (!content) {
+    meta?.remove();
+    return;
+  }
+  if (!meta) {
+    meta = document.createElement("meta");
+    meta.setAttribute(attribute, key);
+    document.head.append(meta);
+  }
+  meta.setAttribute("content", content);
+}
+
+function detailUrl(id) {
+  const url = new URL(pageType === "article" ? "/articolo.html" : "/programma.html", siteUrl);
+  url.searchParams.set("id", id);
+  return url.href;
+}
+
+function breadcrumbSchema(sectionName, sectionUrl, title, url) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      { "@type": "ListItem", position: 2, name: sectionName, item: sectionUrl },
+      { "@type": "ListItem", position: 3, name: title, item: url },
+    ],
+  };
+}
+
+function updateSeo({ title, description, url, type, image, schema }) {
+  document.title = title;
+  elements.metaDescription.setAttribute("content", description);
+  elements.canonical.href = url;
+  elements.ogTitle.setAttribute("content", title);
+  elements.ogDescription.setAttribute("content", description);
+  elements.ogType.setAttribute("content", type);
+  elements.ogUrl.setAttribute("content", url);
+  elements.twitterCard.setAttribute("content", image ? "summary_large_image" : "summary");
+  elements.twitterTitle.setAttribute("content", title);
+  elements.twitterDescription.setAttribute("content", description);
+  setOptionalMeta("property", "og:image", image);
+  setOptionalMeta("property", "og:image:alt", image ? title : "");
+  setOptionalMeta("name", "twitter:image", image);
+  elements.structuredData.textContent = JSON.stringify(schema).replace(/</g, "\\u003c");
+}
+
 function showNotFound(message) {
   elements.state.hidden = true;
   elements.notFound.hidden = false;
   elements.errorMessage.textContent = message;
+  setOptionalMeta("name", "robots", "noindex,follow");
 }
 
 function renderArticle(article, categories) {
@@ -86,8 +145,33 @@ function renderArticle(article, categories) {
   elements.body.innerHTML = paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph).replace(/\n/g, "<br />")}</p>`).join("");
   elements.pointsSection.hidden = points.length === 0;
   elements.points.innerHTML = points.map((point) => `<li>${escapeHTML(point)}</li>`).join("");
-  elements.metaDescription.setAttribute("content", article.excerpt || article.title);
-  document.title = `${article.title} — Occasioni.online`;
+  const description = article.excerpt || article.title;
+  const url = detailUrl(article.id);
+  updateSeo({
+    title: `${article.title} — Occasioni.online`,
+    description,
+    url,
+    type: "article",
+    image: imageUrl,
+    schema: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          headline: article.title,
+          description,
+          url,
+          mainEntityOfPage: { "@type": "WebPage", "@id": url },
+          inLanguage: "it-IT",
+          image: imageUrl || undefined,
+          articleSection: categoryName(categories, article.category_id),
+          keywords: tags,
+          publisher: { "@type": "Organization", name: "Occasioni.online", url: `${siteUrl}/` },
+        },
+        breadcrumbSchema("Guide / Blog", `${siteUrl}/guide.html`, article.title, url),
+      ],
+    },
+  });
   elements.state.hidden = true;
   elements.article.hidden = false;
 }
@@ -107,8 +191,28 @@ function renderProgram(program, categories) {
   elements.tags.innerHTML = tags.map((tag) => `<span>${escapeHTML(tag)}</span>`).join("");
   elements.officialLink.hidden = !url;
   if (url) elements.officialLink.href = url;
-  elements.metaDescription.setAttribute("content", program.description || program.name);
-  document.title = `${program.name} — Occasioni.online`;
+  const description = program.description || program.name;
+  const detailPageUrl = detailUrl(program.id);
+  updateSeo({
+    title: `${program.name} — Occasioni.online`,
+    description,
+    url: detailPageUrl,
+    type: "website",
+    schema: {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          name: program.name,
+          description,
+          url: detailPageUrl,
+          inLanguage: "it-IT",
+          isPartOf: { "@id": `${siteUrl}/#website` },
+        },
+        breadcrumbSchema("Categorie e programmi", `${siteUrl}/opportunita.html#programmi`, program.name, detailPageUrl),
+      ],
+    },
+  });
   elements.state.hidden = true;
   elements.program.hidden = false;
 }

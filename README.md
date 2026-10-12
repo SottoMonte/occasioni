@@ -33,4 +33,10 @@ Le anteprime della homepage rimandano alle schede complete `articolo.html?id=<id
 
 La configurazione mantiene il backend GitHub e il Site ID già presenti nel progetto. Prima della pubblicazione verifica in `admin/config.yml` che repository e sito Decap Turbo siano quelli destinati a Occasioni.online. I vecchi `data/site.json`, `data/products.json` e i file `shop.css` e `shop.js` appartengono al prototipo Cartaway e non sono usati dalle raccolte editoriali.
 
+## SEO
+
+Le pagine principali dichiarano title, description, canonical e metadati social. Le schede articolo e programma aggiornano title, description, canonical e dati strutturati dopo aver caricato i dati JSON. Le pagine Community e Market restano `noindex` finché sono dimostrative.
+
+Dopo aver pubblicato, rimosso o rinominato un articolo o programma, rigenera `sitemap.xml` con `node generate-sitemap.mjs`. Verifica che `https://occasioni.online` sia il dominio canonico destinato alla pubblicazione prima del deploy; se cambia, aggiorna anche il dominio nello script e in `content-pages.js`.
+
 I programmi iniziali sono esempi da verificare e i link non sono tracciati. Prima di monetizzare, aggiorna i dati e aggiungi informativa pubblicitaria, privacy, cookie e le informazioni legali applicabili. I contenuti hanno finalità informative, non costituiscono consulenza finanziaria, fiscale o legale e non garantiscono risultati.
