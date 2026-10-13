@@ -1,0 +1,346 @@
+diff --git a/articolo.html b/articolo.html
+index 0151900..eaecc01 100644
+--- a/articolo.html
++++ b/articolo.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+   @@
+     <meta id="page-description" name="description" content="Guide pratiche su lavoro digitale, affiliazioni e metodi per guadagnare online con aspettative realistiche." />
+     <link id="page-canonical" rel="canonical" href="https://occasioni.online/articolo.html" />
+@@ -21,10 +21,11 @@
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
++      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+       rel="stylesheet"
+     />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="content-pages.js?v=2" defer></script>
+   </head>
+diff --git a/community.html b/community.html
+index 82a077d..1708965 100644
+--- a/community.html
++++ b/community.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+   @@
+     <meta name="description" content="La community di Occasioni.online è in preparazione. Le discussioni non sono ancora attive." />
+     <meta name="robots" content="noindex,follow" />
+@@ -20,8 +20,9 @@
+     <title>Community in preparazione — Occasioni.online</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
++    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="portal-pages.js?v=3" defer></script>
+   </head>
+diff --git a/guide.html b/guide.html
+index 140b629..4ad581e 100644
+--- a/guide.html
++++ b/guide.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+     <meta name="description" content="Guide pratiche su affiliazioni, freelance, microtask e vendita online. Confronta requisiti, costi e rischi prima di iniziare." />
+     <link rel="canonical" href="https://occasioni.online/guide.html" />
+     <meta property="og:title" content="Guide per guadagnare online — Occasioni.online" />
+@@ -29,8 +29,9 @@
+     </script>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
++    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="portal-pages.js?v=3" defer></script>
+   </head>
+diff --git a/index.html b/index.html
+index 634df59..5c715b9 100644
+--- a/index.html
++++ b/index.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+     <meta
+       name="description"
+       content="Guide pratiche e programmi di affiliazione per valutare opportunità digitali, requisiti e rischi prima di iniziare."
+@@ -44,10 +44,11 @@
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
++      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+       rel="stylesheet"
+     />
+     <link rel="stylesheet" href="occasioni.css?v=16" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="portal-pages.js?v=3" defer></script>
+   </head>
+@@ -90,28 +91,32 @@
+ 
+     <main id="main">
+       <section class="hero" id="inizio" aria-labelledby="hero-title">
+-        <img
+-          class="hero__image"
+-          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2200&q=88"
+-          alt="Schermo con dati e grafici su una scrivania di lavoro"
+-          fetchpriority="high"
+-        />
+         <div class="hero__content">
+-          <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> PER ORIENTARSI NEL LAVORO DIGITALE</p>
+-          <h1 id="hero-title">Guadagnare<br /><em>online, con criterio.</em></h1>
+-          <p class="hero__intro">Guide pratiche e programmi di affiliazione per confrontare opportunità, condizioni e requisiti prima di scegliere.</p>
++          <p class="eyebrow">Per orientarsi nel lavoro digitale</p>
++          <h1 id="hero-title">Guadagnare online, <em>con criterio.</em></h1>
++          <p class="hero__intro">Guide pratiche e confronti tra programmi di affiliazione: ti diciamo cosa costano, quanto tempo richiedono e cosa rischi, prima che tu scelga.</p>
+           <div class="hero__actions">
+             <a class="button button--acid" href="guide.html">Esplora le guide <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+             <a class="hero__text-link" href="opportunita.html">Categorie e programmi <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+           </div>
+         </div>
++        <aside class="hero__check" aria-label="Cosa verifichiamo su ogni opportunità">
++          <h2>Cosa verifichiamo su ognuna</h2>
++          <p>Ogni guida risponde a queste quattro domande.</p>
++          <ul>
++            <li><span class="hero__tick" aria-hidden="true"></span><div><strong>Quanto costa iniziare</strong>Quote, strumenti e spese nascoste.</div></li>
++            <li><span class="hero__tick" aria-hidden="true"></span><div><strong>Quando arriva il primo pagamento</strong>Tempi reali, non quelli promessi.</div></li>
++            <li><span class="hero__tick" aria-hidden="true"></span><div><strong>Chi può partecipare</strong>Requisiti e obblighi fiscali.</div></li>
++            <li><span class="hero__tick" aria-hidden="true"></span><div><strong>Cosa può andare storto</strong>Rischi e segnali di truffa.</div></li>
++          </ul>
++        </aside>
+       </section>
+ 
+         <section class="home-journey" id="percorso" aria-labelledby="home-journey-title">
+           <div class="home-journey__inner">
+             <div class="home-journey__heading">
+               <div>
+-                <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> GUIDA RAPIDA / 01</p>
++                <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> Guida rapida</p>
+                 <h2 id="home-journey-title">Dall’idea alla scelta, un passo alla volta.</h2>
+               </div>
+               <p>Non sai da dove partire? Metti a fuoco il tuo obiettivo, confronta le possibilità e verifica le condizioni prima di impegnare tempo o denaro.</p>
+@@ -149,7 +154,7 @@
+           <div class="home-areas__inner">
+             <div class="home-areas__heading">
+               <div>
+-                <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> LA VETRINA DEL PORTALE</p>
++                <p class="eyebrow eyebrow--dark"><span class="eyebrow__rule"></span> Cosa trovi qui</p>
+                 <h2 id="home-areas-title">Cosa puoi fare qui.</h2>
+               </div>
+               <p>Guide e directory sono attive. Community e Market sono ancora in preparazione o disponibili solo come demo.</p>
+@@ -157,28 +162,28 @@
+             <div class="home-areas__grid">
+               <a class="home-area" href="guide.html">
+                 <span class="home-area__icon" aria-hidden="true"><i data-lucide="book-open"></i></span>
+-                <span class="home-area__index">01 / GUIDE ATTIVE</span>
++                <span class="home-area__index">Attiva</span>
+                 <h3>Impara i metodi</h3>
+                 <p>Guide su freelance, affiliazioni, microtask, vendita online e sicurezza.</p>
+                 <span class="home-area__link">Sfoglia le guide <span aria-hidden="true">↗</span></span>
+               </a>
+               <a class="home-area" href="opportunita.html">
+                 <span class="home-area__icon" aria-hidden="true"><i data-lucide="compass"></i></span>
+-                <span class="home-area__index">02 / DIRECTORY ATTIVA</span>
++                <span class="home-area__index">Attiva</span>
+                 <h3>Confronta i programmi</h3>
+                 <p>Cerca reti e programmi per settore e verifica requisiti e condizioni sui siti ufficiali.</p>
+                 <span class="home-area__link">Apri la directory <span aria-hidden="true">↗</span></span>
+               </a>
+               <a class="home-area" href="community.html">
+                 <span class="home-area__icon" aria-hidden="true"><i data-lucide="messages-square"></i></span>
+-                <span class="home-area__index">03 / IN PREPARAZIONE</span>
++                <span class="home-area__index">In preparazione</span>
+                 <h3>Community</h3>
+                 <p>Uno spazio pensato per domande e confronto. Le discussioni non sono ancora attive.</p>
+                 <span class="home-area__link">Vedi la sezione <span aria-hidden="true">↗</span></span>
+               </a>
+               <a class="home-area" href="market.html">
+                 <span class="home-area__icon" aria-hidden="true"><i data-lucide="store"></i></span>
+-                <span class="home-area__index">04 / DEMO LOCALE</span>
++                <span class="home-area__index">Demo locale</span>
+                 <h3>Market</h3>
+                 <p>Puoi provare l’anteprima di un annuncio; le bozze non vengono salvate o pubblicate.</p>
+                 <span class="home-area__link">Apri la demo <span aria-hidden="true">↗</span></span>
+@@ -207,7 +212,7 @@
+       </div>
+       <div class="site-footer__bottom">
+         <span>© <span id="current-year"></span> occasioni.online</span>
+-        <span>Questa demo non utilizza link affiliati tracciati.</span>
++        <span>Se un link è di affiliazione, lo indichiamo accanto al link.</span>
+         <a href="#inizio">Torna all’inizio ↑</a>
+       </div>
+     </footer>
+diff --git a/market.html b/market.html
+index 936f089..f1b87f9 100644
+--- a/market.html
++++ b/market.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+   @@
+     <meta name="description" content="L’area annunci di Occasioni.online è una demo: gli annunci non vengono inviati né pubblicati." />
+     <meta name="robots" content="noindex,follow" />
+@@ -20,8 +20,9 @@
+     <title>Market in anteprima — Occasioni.online</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
++    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="portal-pages.js?v=3" defer></script>
+   </head>
+diff --git a/opportunita.html b/opportunita.html
+index 9aab266..844ecb5 100644
+--- a/opportunita.html
++++ b/opportunita.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+     <meta name="description" content="Confronta reti e programmi di affiliazione per settore. Verifica requisiti, commissioni e pagamenti sui siti ufficiali." />
+     <link rel="canonical" href="https://occasioni.online/opportunita.html" />
+     <meta property="og:title" content="Programmi di affiliazione per settore — Occasioni.online" />
+@@ -29,8 +29,9 @@
+     </script>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
++    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="portal-pages.js?v=3" defer></script>
+   </head>
+diff --git a/programma.html b/programma.html
+index 71b971d..ea7720f 100644
+--- a/programma.html
++++ b/programma.html
+@@ -3,7 +3,7 @@
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <meta name="theme-color" content="#102d25" />
++    <meta name="theme-color" content="#101c2e" />
+   @@
+     <meta id="page-description" name="description" content="Scheda informativa di un programma di affiliazione: verifica requisiti, condizioni e pagamenti sul sito ufficiale." />
+     <link id="page-canonical" rel="canonical" href="https://occasioni.online/programma.html" />
+@@ -21,10 +21,11 @@
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap"
++      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+       rel="stylesheet"
+     />
+     <link rel="stylesheet" href="occasioni.css?v=15" />
++    <link rel="stylesheet" href="theme.css?v=1" />
+     <script src="https://unpkg.com/lucide@0.468.0" defer></script>
+     <script src="content-pages.js?v=2" defer></script>
+   </head>
+diff --git a/theme.css b/theme.css
+new file mode 100644
+index 0000000..93108a6
+--- /dev/null
++++ b/theme.css
+@@ -0,0 +1,72 @@
++/* Occasioni.online - tema 2: nebbia, inchiostro, cobalto, ambra. Caricato DOPO occasioni.css */
++:root{
++  --paper:#eaeff3;--ink:#101c2e;--forest:#14213d;--forest-deep:#0c1626;--white:#fff;
++  --acid:#ffb703;--coral:#2f4bff;--sky:#dbe4ff;--muted:#51607a;--line:#cdd7e2;
++  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
++  --body:"Instrument Sans",system-ui,sans-serif;--mono:var(--body);--ok:#1f9d6b;
++}
++body{font-size:16px;line-height:1.65}
++h1,h2,h3{font-family:var(--display);letter-spacing:-.02em}
++.topline{display:none}
++.eyebrow,.article-card__meta,.directory__filter-label,.program-card__type,.select-field,.market-listing__meta{
++  text-transform:none;letter-spacing:0;font-family:var(--body)}
++.eyebrow{font-size:14px;font-weight:600}
++
++/* header */
++.site-header{background:rgba(234,239,243,.93);backdrop-filter:blur(8px)}
++.brand__name{font-family:var(--display);font-size:21px;font-weight:800;letter-spacing:-.02em}
++.brand__name span{color:var(--coral);font-weight:800}
++.primary-nav{font-size:15px;font-weight:600}
++.primary-nav a{transition:box-shadow .15s}
++.primary-nav a:hover{box-shadow:inset 0 -3px var(--acid)}
++.header-link{padding:10px 18px;border-radius:999px;background:var(--ink);color:#fff;font-size:14px;font-weight:700;text-decoration:none}
++
++/* bottoni */
++.button{min-height:52px;padding:0 26px;border-radius:999px;font-size:15px;letter-spacing:0}
++.button--acid{background:var(--coral);color:#fff}
++.button--dark{background:var(--ink);color:#fff}
++
++/* hero: testo a sinistra, scheda controllo a destra */
++.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:56px;align-items:center;
++  max-width:1240px;min-height:0;margin:0 auto;padding:76px 42px 84px;overflow:visible;background:transparent;color:var(--ink)}
++.hero::before,.hero::after,.hero__image,.hero__dot{display:none}
++.hero .hero__content{width:auto;max-width:none;margin:0;padding:0;animation:none}
++.hero .hero__content h1{color:var(--ink);font-size:clamp(2.7rem,5.6vw,4.7rem);font-weight:800;line-height:1.03}
++.hero .hero__content h1 em{font-style:normal;color:inherit;font-weight:inherit}
++.hero .hero__content .hero__intro{color:var(--muted);font-size:1.2rem;max-width:34rem;margin:24px 0 32px}
++.hero .hero__content .eyebrow{color:var(--coral)}
++.hero .hero__text-link{color:var(--ink);font-size:15px;font-weight:700}
++.hero__check{background:#fff;border:2px solid var(--ink);border-radius:20px;padding:28px;box-shadow:8px 8px 0 var(--acid)}
++.hero__check h2{font-size:1.4rem;margin:0 0 4px}
++.hero__check>p{margin:0 0 14px;color:var(--muted);font-size:15px}
++.hero__check ul{list-style:none;margin:0;padding:0}
++.hero__check li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
++.hero__check li strong{display:block;font-family:var(--display);font-size:1.05rem;color:var(--ink)}
++.hero__tick{flex:none;width:26px;height:26px;border-radius:50%;background:var(--ok);display:grid;place-items:center;animation:tick-pop .35s both}
++.hero__tick::after{content:"";width:8px;height:14px;border:solid #fff;border-width:0 3px 3px 0;transform:translateY(-1px) rotate(45deg)}
++.hero__check li:nth-child(1) .hero__tick{animation-delay:.3s}.hero__check li:nth-child(2) .hero__tick{animation-delay:.55s}
++.hero__check li:nth-child(3) .hero__tick{animation-delay:.8s}.hero__check li:nth-child(4) .hero__tick{animation-delay:1.05s}
++@keyframes tick-pop{from{transform:scale(0)}to{transform:scale(1)}}
++
++/* aree della home: righe invece di card identiche */
++.home-areas__grid{display:block;border-top:2px solid var(--ink)}
++.home-area{display:grid;grid-template:"icon idx lnk" auto "icon ttl lnk" auto "icon txt lnk" auto/56px minmax(0,1fr) auto;
++  column-gap:24px;align-items:center;padding:28px 8px;background:transparent;border:0;border-bottom:1px solid var(--line);
++  border-radius:0;box-shadow:none;transform:none;transition:background .15s,padding .15s}
++.home-area:hover{background:#fff;padding-inline:20px}
++.home-area__icon{grid-area:icon}.home-area__index{grid-area:idx;font-size:13px;font-weight:600;color:var(--muted)}
++.home-area h3{grid-area:ttl;font-size:1.65rem;margin:0}.home-area p{grid-area:txt;margin:4px 0 0;color:var(--muted);max-width:42rem}
++.home-area__link{grid-area:lnk;padding:9px 18px;border-radius:999px;background:var(--coral);color:#fff;font-size:14px;font-weight:700;white-space:nowrap}
++.home-area:nth-child(n+3) .home-area__link{background:transparent;color:var(--ink);border:1.5px dashed var(--muted)}
++
++/* card dinamiche (guide, programmi, categorie) */
++.article-card,.program-card,.category-link{background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:none;transition:border-color .15s,transform .15s}
++.article-card:hover,.program-card:hover,.category-link:hover{border-color:var(--ink);transform:translateY(-2px)}
++.article-card__image{border-radius:10px}
++
++@media (max-width:900px){.hero{grid-template-columns:1fr;gap:40px;padding:44px 20px 60px}}
++@media (max-width:760px){
++  .home-area{grid-template:"icon idx" auto "ttl ttl" auto "txt txt" auto "lnk lnk" auto/48px minmax(0,1fr);row-gap:6px}
++  .home-area__link{justify-self:start;margin-top:10px}
++}
++@media (prefers-reduced-motion:reduce){.hero__tick{animation:none}.article-card,.program-card,.category-link{transition:none}}
