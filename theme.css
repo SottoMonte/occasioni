@@ -70,3 +70,35 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.02em}
   .home-area__link{justify-self:start;margin-top:10px}
 }
 @media (prefers-reduced-motion:reduce){.hero__tick{animation:none}.article-card,.program-card,.category-link{transition:none}}
+
+/* ---- pagine interne: intestazioni, griglie, articolo ---- */
+.article-card__number,.category-link__number{display:none}
+.portal-main{max-width:1240px;margin:0 auto}
+.portal-intro{padding:56px 42px 40px;background:transparent;color:var(--ink)}
+.portal-intro h1{font-size:clamp(2.4rem,5vw,4rem);font-weight:800;line-height:1.05;margin:0 0 16px}
+.portal-intro__lead{color:var(--muted);font-size:1.2rem;max-width:40rem}
+.portal-section__heading h2,.section-heading h2{font-size:clamp(1.8rem,3.6vw,2.6rem)}
+.article-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.article-card__content{padding:20px 22px 24px}
+.article-card__read{color:var(--coral);font-weight:700}
+.directory{background:var(--ink);color:#eaf0f7}
+.directory h2,.directory h3{color:#fff}
+.directory h2 em{font-style:normal}
+.program-card{background:#fff;color:var(--ink)}
+.community-notice,.disclosure{border-radius:20px}
+.community-notice__index{display:none}
+
+/* articolo: colonna di lettura e riquadro riassuntivo */
+.article-detail{max-width:760px;margin:0 auto;padding:24px 22px 72px}
+.article-detail__header h1{font-size:clamp(2.2rem,4.8vw,3.4rem);font-weight:800;line-height:1.06}
+.article-detail__excerpt{font-size:1.25rem;color:var(--muted)}
+.article-detail__image{border-radius:16px;margin-top:28px}
+.article-detail__body{font-size:1.15rem;line-height:1.8}
+.article-detail__body p{margin:0 0 1.4em}
+.article-detail__points{background:#fff;border:2px solid var(--ink);border-radius:20px;padding:26px 28px;box-shadow:8px 8px 0 var(--acid);margin:40px 0}
+.article-detail__points h2{font-size:1.4rem;margin:0 0 12px}
+.article-detail__points ul{list-style:none;margin:0;padding:0}
+.article-detail__points li{position:relative;padding:12px 0 12px 40px;border-top:1px solid var(--line)}
+.article-detail__points li::before{content:"";position:absolute;left:0;top:14px;width:24px;height:24px;border-radius:50%;background:var(--ok)}
+.article-detail__points li::after{content:"";position:absolute;left:8px;top:19px;width:6px;height:11px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg)}
+@media (max-width:760px){.portal-intro{padding:36px 20px 28px}.article-detail__points{box-shadow:5px 5px 0 var(--acid)}}
